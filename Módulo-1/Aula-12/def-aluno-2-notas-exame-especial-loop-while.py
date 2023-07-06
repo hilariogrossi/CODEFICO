@@ -13,9 +13,7 @@ sua nota sem a parte decimal, ou seja, somente o número inteiro. Caso contrári
 um valor inteiro deve imprimir a nota com apenas uma casa decimal.'''
 
 
-def turma_escolar(nome, N1, N2):
-    media = (N1 + N2) / 2
-
+def turma_escolar(nome, media):
     if nome == 'João' or nome == 'Lucas':
         resposta_situacao = 'com a MATRÍCULA TRANCADA'
     else:
@@ -26,10 +24,7 @@ def turma_escolar(nome, N1, N2):
         else:
             resposta_situacao = 'APROVADO'
 
-    if media == int(media):
-        print(f'\nO aluno {nome_aluno} está {resposta_situacao} com a nota {media}.\n')
-    else:
-        print(f'\nO aluno {nome_aluno} está {resposta_situacao} com a nota {media:.1f}.\n')
+    return resposta_situacao
 
 
 numero_aluno_turma = int(input('\nDIGITE O NÚMERO DE ALUNOS NA TURMA: '))
@@ -39,6 +34,10 @@ while numero_aluno_turma > 0:
     n1 = float(input('\nEntre com a primeira nota do aluno: '))
     n2 = float(input('\nEntre com a segunda nota do aluno: '))
 
-    turma_escolar(nome_aluno, n1, n2)
+    media = (n1 + n2) / 2
+
+    resposta =  turma_escolar(nome_aluno, media)
+
+    print(f'\nO aluno {nome_aluno} está {resposta} com a nota {media:.1f}.\n')
 
     numero_aluno_turma -= 1
