@@ -22,10 +22,10 @@ cont = 0
 vetor = []
 
 for linha in matriz:
-    for elemento in linha:
+    for indice, elemento in enumerate(linha):
         print(f'{elemento:6.2f}', end=' ')
 
-        if linha.index(elemento) != matriz.index(linha):
+        if indice != matriz.index(linha):
             if elemento != 0:
                 cont += 1
         else:
