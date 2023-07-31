@@ -6,15 +6,12 @@ função considerando apenas o número de comparações? Entrada: matriz_exemplo
 Saída: Console = O maior número na matriz é o número 9'''
 
 
-# Exercício 5 - Lista exercício 31/07/2023
-
-
 def enconta_maior_elemnto(matriz):
     maior_elemento = float('-inf')
 
     for linha in matriz:
         for elemento in linha:
-            if elemento > maior_elemento: # Complexidade 2 * n ** 2 => 2 (for + if) * n (quantidade) * n (for de cima)
+            if elemento > maior_elemento: # Complexidade 2 * n ** 2 = 2(for + if) * n (quantidade) * n (for de cima)
                 maior_elemento = elemento
 
     return elemento
@@ -25,4 +22,9 @@ def analise_de_complexidade():
                   [2, 8, 4],
                   [9, 6, 7]]
 
-    resultado = enconta_maior_elemnto()
+    resultado = enconta_maior_elemnto(matriz_exemplo)
+
+    return resultado
+
+
+print(analise_de_complexidade())
