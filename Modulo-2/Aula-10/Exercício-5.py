@@ -3,7 +3,7 @@ função considerando apenas o número de comparações? Entrada: matriz_exemplo
                                                                                 [2, 8, 4],
                                                                                 [9, 6, 7]
                                                                                 ]
-Saída: Console = O maior número na matriz é o número 9'''
+Saída: Console = O maior número na matriz é o número 12'''
 
 
 def enconta_maior_elemnto(matriz):
@@ -14,7 +14,7 @@ def enconta_maior_elemnto(matriz):
             if elemento > maior_elemento: # Complexidade 2 * n ** 2 = 2(for + if) * n (quantidade) * n (for de cima)
                 maior_elemento = elemento
 
-    return elemento
+    return maior_elemento
 
 
 def analise_de_complexidade():
@@ -27,4 +27,4 @@ def analise_de_complexidade():
     return resultado
 
 
-print(analise_de_complexidade())
+print(f'O maior número na matriz é o: {analise_de_complexidade()}')
