@@ -1,0 +1,6 @@
+# Conceito de Análise de complexidade:
+## Análise de complexidade é um processo fundamental no campo da ciência da computação, cujo objetivo é avaliar e medir a eficiência
+## de um algoritmo em termos de recursos computacionais que ele consome. O foco principal da análise de complexidade é entender como 
+## o desempenho do algoritmo é afetado pelo crescimento do tamanho da entrada. Ela fornece uma estimativa teórica do tempo e espaço 
+## necessários para a execução de um algoritmo, permitindo aos desenvolvedores e engenheiros de software tomar decisões informadas 
+## sobre a escolha dos algoritmos mais adequados para resolver um determinado problema.
