@@ -1,6 +1,5 @@
 '''Qual a ordem de complexidade do programa abaixo, em relação ao tamanho n da entrada, se considerarmos o número de comparações como medida de complexidade?'''
 
-# Exercício 2 - Lista exercício 31/07/2023
 
 def f(a, tam):
     print()
