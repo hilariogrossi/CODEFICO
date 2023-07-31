@@ -2,7 +2,6 @@
 Determine quais valores de n pertencentes ao conjunto dos números naturais para os quais A leva menos tempo para executar do que B.
 Obs: n^2 siginifica n elevado ao quadrado, ou seja n . n'''
 
-# Exercício 1 - Lista exercício 31/07/2023
 
 '''n ** 2 - n + 549 < 49 * n + 49
 n ** 2 - n - 49 * n + 549 - 49 < 0
