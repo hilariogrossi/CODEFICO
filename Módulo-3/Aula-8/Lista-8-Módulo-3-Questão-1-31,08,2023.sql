@@ -1,0 +1,52 @@
+CREATE TYPE PESSOA AS (
+    CPF CHAR(11) PRIMARY KEY,
+    Nome VARCHAR(50),
+    Sexo CHAR(1),
+    Endereco VARCHAR(30),
+    Data_nascimento DATE
+);
+
+CREATE TYPE FUNCIONARIO AS (
+    Salario FLOAT
+);
+
+CREATE TYPE ADMINISTRATIVO AS (
+    Cargo CHAR(10)
+);
+
+CREATE TYPE DOCENTE AS (
+    Nivel CHAR(10)
+);
+
+CREATE TYPE ALUNO_COLABORADOR AS (
+    Porcentagem_tempo CHAR(10)
+);
+
+CREATE TYPE COLABORADOR_PESQUISA AS (
+    Projeto VARCHAR(30)
+    
+);
+
+CREATE TYPE COLABORADOR_ENSINO AS (
+    Disciplina VARCHAR(20)
+);
+
+CREATE TYPE EX_ALUNO AS (
+    Ano DATE,
+    Titulo VARCHAR(30),
+    Dep_princ VARCHAR(20)
+);
+
+CREATE TYPE ALUNO AS (
+    Dep_principal CHAR(10)
+);
+
+CREATE TYPE ALUNO_POS_GRADUACAO AS (
+    Titulo_programa VARCHAR(30)
+);
+
+CRATE TYPE ALUNO_GRADUACAO AS (
+    Tipo_aluno CHAR(10)
+);
+
+
