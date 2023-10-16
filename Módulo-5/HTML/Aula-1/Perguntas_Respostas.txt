@@ -1,6 +1,6 @@
 1 - Pergunta: Qual é a finalidade da declaração em um documento HTML? Qual é sua importância?
     A declaração dum documento html tem como finalidade principal informar ao navegador
-    qual é a versão do html está sendo usada para que o mesmo o interprete. É uma instrução.
+    qual é a versão do html que está sendo usada para que o mesmo o interprete. É uma instrução.
 
     Tem como importância garantir que o navegador interprete corretamente a página seguindo
     os padrões e regras da versão do html que foi introduzida no início do arquivo html.
@@ -80,12 +80,11 @@ Dê exemplos de cada um.
                 <p>Este é um parágrafo de texto.</p>
             </div>
 
+            <p>Isso é um texto.</p>
 
         * Inline: Ocupam apenas o espaço necessário para seu conteúdo e não começam
         numa nova linha.
-            Exemplo: <a>, <span>, <img>, <p>
-
-            <p>Isso é um texto.</p>
+            Exemplo: <a>, <span>, <img>
 
 7 - Pergunta: Qual é a diferença entre as tags <div> e <span> em HTML? Quando você usaria
 uma em vez da outra?
@@ -101,11 +100,12 @@ uma em vez da outra?
 
 8 - Pergunta: Qual atributo HTML permite abrir um link em uma nova janela ou guia do
 navegador? Dê um exemplo de como usar esse atributo.
-    É o atributo 'target'. Definindo-o como "_blank" esse abrirá uma nova página quando
+    É o atributo 'target'. Definindo-o como "_blank" esse abrirá uma nova aba quando
     clicado. A tag a ser usada será a <a></a>
 
     Exemplo:
-    <a href="https://www.codefico.com.br" target="_blank">CODEFICO</a>
+    Nova Aba:
+        <a href="https://www.codefico.com.br" target="_blank">CODEFICO</a>
 
 9 - Pergunta: Além do exemplo mencionado na aula, pesquise e liste pelo menos três meta
 informações que podem ser adicionadas a uma página HTML. Explique brevemente o propósito
