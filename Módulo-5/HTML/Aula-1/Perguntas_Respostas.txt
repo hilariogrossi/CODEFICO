@@ -1,0 +1,173 @@
+1 - Pergunta: Qual é a finalidade da declaração em um documento HTML? Qual é sua importância?
+    A declaração dum documento html tem como finalidade principal informar ao navegador
+    qual é a versão do html está sendo usada para que o mesmo o interprete. É uma instrução.
+
+    Tem como importância garantir que o navegador interprete corretamente a página seguindo
+    os padrões e regras da versão do html que foi introduzida no início do arquivo html.
+
+    Exemplo: <!DOCTYPE html> => essa descrição diz ao navegador para utilizar a última versão
+    existente do html.
+
+2 - Pergunta: O que são elementos HTML? Explique brevemente o conceito.
+    Os elementos são blocos de construção duma página da web que são compostos por tags.
+    Cada elemento html tem um propósito específico e é representado por uma tag específica.
+    São componentes chave para a construção da página web.
+
+    Exemplos: <header>, <div>, <p>
+
+3 - Pergunta: Em HTML, como os elementos são estruturados geralmente? Descreva a estrutura
+básica de um documento HTML, incluindo as tags de abertura e fechamento.
+    Um documento html segue uma estrutura básica que inclui várias partes que são essenciais,
+    incluindo as tags de abertura e fechamento.
+
+    Exemplo:
+
+    <!DOCTYPE html> (=> define a declaração do tipo de documento para indicar que o
+    documento segue as especificações do HTML5.)
+    <html> (=> define a declaração do tipo de documento para indicar que o documento
+    segue as especificações do HTML5.)
+
+    <head> (=> contém informações sobre a página, como o título exibido na guia do navegador
+    e a codificação de caracteres.)
+    <title>Minha primeira página web.</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Hilário Grossi de Oliveira" />
+    </head>
+
+    <body> (=> envolve o conteúdo visível da página, como cabeçalho, navegação, conteúdo
+    principal e rodapé.)
+    
+    </body>
+
+    </html>
+
+4 - Pergunta: O que são atributos em HTML e onde eles são normalmente encontrados em um
+elemento HTML? Dê um exemplo de um elemento HTML com atributos.
+    São informações adicionais fornecidas dentro das tags que modificam ou definem as
+    características dum elemento. São usados para fornecer metadados, configurações ou
+    valores específicos para um elemento html. São encontrados, normalmente, como pares
+    chave-valor dentro das tags de abertura de elementos.
+    São usdados para enriquecer e configurar elementos html.
+
+    Exemplo:
+    <a href="www.codefico.com.br">CODEFICO</a>
+
+5 - Pergunta: O que são elementos vazios em HTML? Forneça alguns exemplos de elementos vazios
+e explique por que eles são considerados vazios.
+    São elementos que não possuem conteúdo entre tags de abertura e fechamento porque eles
+    não tem conteúdo associado. Eles são escritos como uma única tag de abertura que termina
+    assim "/>", o qual indica ao navegador que o elemento está completo em si mesmo.
+    Fornecem informações, configurações ou funcionalidades específicas.
+    * São considerados vazios porque não têm conteúdo entre tags de abertura e fechamento 
+
+    Exemplos:
+    <img src="imagem.jpg" alt="Descrição da imagem" />
+
+    <br />
+
+    <input type="text" name="nome" />
+
+6 - Pergunta: Explique a diferença entre elementos de bloco e elementos inline em HTML.
+Dê exemplos de cada um.
+    É uma classificação: elementos de bloco ou inline. Principalmente se distinguem por
+    pela maneira que ocuparem espaço na página e como se comportam em relação a outros
+    elementos.
+        * Em bloco: Ocupam toda a largura disponível na página e começam numa nova linha.
+            Exemplo: <div>, <p>, <h1>
+
+            <div>
+                <h1>Título</h1>
+                <p>Este é um parágrafo de texto.</p>
+            </div>
+
+
+        * Inline: Ocupam apenas o espaço necessário para seu conteúdo e não começam
+        numa nova linha.
+            Exemplo: <a>, <span>, <img>, <p>
+
+            <p>Isso é um texto.</p>
+
+7 - Pergunta: Qual é a diferença entre as tags <div> e <span> em HTML? Quando você usaria
+uma em vez da outra?
+    Basicamente <div> é um elemento em bloco usado para estruturar e organizar conteúdo e
+    o <span> é um elemento inline usado para aplicar estilos específicos do texto.
+
+    <div>
+        <h1>Título da Página</h1>
+        <p>Descrição do site</p>
+    </div>
+
+    <p>Este é um parágrafo de texto normal, mas <span style="color: red;">isso é um texto em vermelho</span>.</p>
+
+8 - Pergunta: Qual atributo HTML permite abrir um link em uma nova janela ou guia do
+navegador? Dê um exemplo de como usar esse atributo.
+    É o atributo 'target'. Definindo-o como "_blank" esse abrirá uma nova página quando
+    clicado. A tag a ser usada será a <a></a>
+
+    Exemplo:
+    <a href="https://www.codefico.com.br" target="_blank">CODEFICO</a>
+
+9 - Pergunta: Além do exemplo mencionado na aula, pesquise e liste pelo menos três meta
+informações que podem ser adicionadas a uma página HTML. Explique brevemente o propósito
+de cada uma delas.
+    * Meta Viewport (<meta name="viewport" content="width=device-width, initial-scale=1">):
+        A meta viewport é crucial para tornar páginas da web responsivas em dispositivos
+        móveis. Ela controla como a página se ajusta ao tamanho da tela do dispositivo.
+        Especifica configurações como a largura inicial e a escala, permitindo que a página
+        se ajuste automaticamente ao tamanho da tela, melhorando a experiência do usuário em
+        dispositivos móveis.
+
+    * Meta Redirecionamento (<meta http-equiv="refresh" 
+        content="5;url=https://www.novapagina.com">):
+            A meta redirecionamento é usada para criar uma página de redirecionamento
+            automático. Ela redireciona os visitantes para outra página da web após um
+            determinado período de tempo.
+            É útil em situações em que você deseja informar os visitantes que a página atual
+            será redirecionada para uma nova localização, por exemplo, após uma atualização
+            ou mudança de URL.
+
+    * Meta Robots (<meta name="robots" content="valor">):
+        A meta robots é usada para instruir os motores de busca sobre como devem rastrear e
+        indexar a página. Os valores comuns incluem "index" (permitir a indexação) e
+        "noindex" (impedir a indexação), entre outros.
+        É fundamental para controlar a visibilidade da página nos resultados de pesquisa e
+        otimizar a indexação em motores de busca.
+
+    * Meta Canonical (<link rel="canonical" href="URL_canônica">):
+        A meta canonical é usada para especificar a URL canônica da página. Ela é útil
+        quando a mesma página ou conteúdo pode ser acessado por várias URLs diferentes,
+        ajudando a evitar problemas de conteúdo duplicado nos resultados de pesquisa.
+        É usado para indicar aos motores de busca qual é a URL preferencial para indexação.
+
+    * Meta Open Graph (<meta property="og:propriedade" content="valor">):
+        A meta Open Graph é usada para fornecer metadados que controlam como o conteúdo da
+        página é exibido nas redes sociais, como o Facebook. Ela permite especificar títulos,
+        descrições, imagens e outros detalhes para compartilhamento em redes sociais.
+        É útil para melhorar a apresentação do conteúdo quando os usuários compartilham a
+        página em plataformas de mídia social.
+
+10 - Pergunta: Além das tags <b> e <i>, que outras tags de formatação HTML você conhece?
+Liste pelo menos duas tags adicionais e explique como elas são usadas.
+    <strong>:
+
+        A tag <strong> é usada para indicar que um texto deve ser enfatizado de forma importante.
+        Embora frequentemente seja estilizado como negrito, seu objetivo principal é transmitir a
+        importância semântica do texto, não apenas alterar a aparência visual.
+    
+        Exemplo de uso:
+        <p><strong>Atenção:</strong> Este é um aviso importante.</p>
+
+    <em>:
+
+        A tag <em> é usada para enfatizar o texto, indicando que ele deve ser lido com ênfase
+        ou destaque. Ela geralmente é estilizada como texto em itálico, mas, da mesma forma
+        que <strong>, a ênfase semântica é mais importante do que a estilização visual.
+
+        Exemplo de uso:
+        <p>Isso é um <em>destaque</em> no texto.</p>
+
+    Essas tags adicionais de formatação HTML são importantes porque não apenas aplicam
+    estilos visuais ao texto, mas também comunicam significado semântico, o que é valioso
+    para a acessibilidade e a interpretação do conteúdo por máquinas, como leitores de tela
+    e motores de busca.
+
