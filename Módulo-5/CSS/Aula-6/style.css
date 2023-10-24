@@ -1,0 +1,25 @@
+#paragrafo {
+    font-size: 25px;
+    color: brown;
+    background-color: pink;
+
+}
+
+.bloco {
+    font-size: 35px;
+    color: rgb(212, 163, 27);
+    background-color: chartreuse;
+
+}
+
+#ul {
+    font-size: 45px;
+    color: rgb(27, 31, 214);
+    background-color: rgb(150, 102, 122);
+
+}
+
+a {
+    color: pink;
+
+}
