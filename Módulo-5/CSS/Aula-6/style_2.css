@@ -1,0 +1,30 @@
+body {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1::after {
+    content: url(http://hilariogrossi.codefico1.software/Eu_2.jpeg);
+
+}
+
+div::first-line {
+    color: #1be27e;
+    font-variant: small-caps;
+}
+
+p::first-line {
+    color: #bb5151;
+    font-variant: small-caps;
+
+}
+
+li:hover {
+    color: chartreuse;
+
+}
+
+a:hover {
+    color: cyan;
+}
