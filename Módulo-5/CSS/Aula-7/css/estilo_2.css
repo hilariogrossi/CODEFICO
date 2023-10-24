@@ -1,0 +1,25 @@
+div {
+    margin: 25px;
+    
+}
+
+.box_3 {
+    border: 2px solid blue;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+
+.box_4 {
+    border: 2px dotted orange;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.box_5 {
+    border: 2px dashed red;
+    border-radius: 50px;
+    text-align: center;
+
+}
