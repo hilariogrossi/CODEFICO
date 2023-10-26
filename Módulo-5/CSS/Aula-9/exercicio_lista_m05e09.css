@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#hcb {
+    background-color: aquamarine;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5rem;
+    padding: 1.0rem;
+    text-align: center;
+    text-shadow: 0.188rem 0.188rem 0.188rem rgb(83, 83, 194), 0.438rem 0.438rem 0.313rem rgb(44, 42, 42);
+
+}
+
+.menu {
+    padding-bottom: 2.5rem;
+
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(59, 248, 185);
+
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 1rem;
+    margin: 0;
+    float: left;
+    text-align: center;
+    width: 33.33%;
+    box-sizing: border-box;
+    border-radius: 1.5rem;
+
+
+}
+
+.menu li:hover {
+    box-shadow: 0.188rem 0.188rem 0.188rem gray;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(230, 11, 47);
+    font-weight: bold;
+    border-radius: 2rem solid black;
+
+}
+
+.menu li:nth-child(1) {
+    background-color: rgb(42, 181, 241);
+
+}
+
+.menu li:nth-child(2) {
+    background-color: rgb(208, 238, 140);
+
+}
+
+.menu li:nth-child(3) {
+    background-color: rgb(235, 139, 206);
+
+}
+
+.texto {
+    text-align: justify;
+    padding: 1.5rem;
+    padding-bottom: 0;
+
+}
+
+#htx {
+    text-align: center;
+    font-size: 2.0rem;
+
+}
+
+.tabela {
+    padding: 1.5rem;
+
+}
+
+#htb {
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.tabela table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+
+.tabela th {
+    background-color: rgba(8, 172, 236, 0.738);
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.tabela th, td, tr {
+    margin: 0;
+    padding: 0.313rem;
+    border: 0.125rem solid rgb(252, 152, 3);
+
+}
+
+.tabela tr {
+    background-color: rgb(238, 138, 138);
+
+}
+
+.tabela tr:nth-child(even) {
+    background-color: rgb(240, 96, 96);
+
+}
+
+.tabela tr:hover {
+    background-color: rgb(255, 68, 0);
+
+}
+
+#pnl {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+#pnl button {
+    background-color: white;
+    box-shadow: -0.188rem -0.188rem 0.313rem gray, 0.188rem 0.188rem 0.313rem gray;
+    border: 0;
+    margin: 0 1.25rem;
+
+}
+
+#pnl button:hover {
+    background-color: #86774e;
+}
+
+.rodape {
+    background-color:rgb(42, 181, 241);
+    text-align: center;
+    padding: 1.5rem;
+
+}
+
+.rodape a {
+    color: black;
+    font-size: 1.25rem;
+
+}
+
+.rodape:hover {
+    background-color: rgb(129, 7, 243);
+}
+
+.rodape a:hover {
+    color: white;
+
+}
